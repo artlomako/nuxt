@@ -1,0 +1,21 @@
+{
+  "name": "vuexts",
+  "version": "1.0.0",
+  "description": "My rad Nuxt.js project",
+  "author": "Artur Lomako",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^0.2.2",
+    "nuxt": "^2.0.0",
+    "nuxt-typed-vuex": "^0.1.8"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.3.2"
+  }
+}
